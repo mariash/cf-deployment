@@ -33,6 +33,8 @@
           - '*.credhub.default.cf.bosh'
           doppler.service.cf.internal:
           - '*.doppler.default.cf.bosh'
+          isolated-doppler.service.cf.internal:
+          - '*.isolated-doppler.default.cf.bosh'
           file-server.service.cf.internal:
           - '*.api.default.cf.bosh'
           gorouter.service.cf.internal:
@@ -120,6 +122,8 @@
           - '*.credhub.default.cf.bosh'
           doppler.service.cf.internal:
           - '*.doppler.default.cf.bosh'
+          isolated-doppler.service.cf.internal:
+          - '*.isolated-doppler.default.cf.bosh'
           file-server.service.cf.internal:
           - '*.api.default.cf.bosh'
           gorouter.service.cf.internal:
@@ -207,6 +211,8 @@
           - '*.credhub.default.cf.bosh'
           doppler.service.cf.internal:
           - '*.doppler.default.cf.bosh'
+          isolated-doppler.service.cf.internal:
+          - '*.isolated-doppler.default.cf.bosh'
           file-server.service.cf.internal:
           - '*.api.default.cf.bosh'
           gorouter.service.cf.internal:
