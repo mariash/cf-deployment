@@ -38,6 +38,7 @@
           organization: system
           password: ((nfs-broker-password))
           register_broker: true
+          broker_name: nfs-broker
           skip_cert_verify: true
           space: nfs-broker-space
           syslog_url: ""
